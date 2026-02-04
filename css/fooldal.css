@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #aaa;
+  }
+  nav div {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: row-reverse;
+  }
+  nav div span {
+    background-color: #222;
+    height: 2px;
+    width: 1.5rem;
+    display: block;
+  }
+  @media screen and (min-width: 40em) {
+    nav div {
+      align-items: center;
+    }
+  }
+  nav div input[type=checkbox] {
+    display: none;
+  }
+  nav div input[type=checkbox]:checked + ul {
+    display: flex;
+  }
+  
+  nav div ul {
+    display: none;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+  }
+  @media screen and (min-width: 40em) {
+    nav div ul {
+      display: flex;
+      flex-direction: row;
+      width: auto;
+    }
+  }
+  
+  nav div ul li {
+    text-align: center;
+  }
+  nav div ul li a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color: #222;
+    line-height: 1rem;
+  }
+  nav div ul li a :hover {
+    background-color: #efefef;
+  }
+  
+  nav div input[type=checkbox] {
+    display: none;
+  }
+  
+  nav div input[type=checkbox]:checked + ul {
+    display: flex;
+  }
+  
+  nav div label {
+    display: flex;
+    padding: 0.75rem;
+    cursor: pointer;
+    align-items: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 40em) {
+    nav div label {
+      display: none;
+    }
+  }
+.icon{
+    width: 140px;
+    height: 75px;
+}
+a:hover{
+    background-color: #efefef;
+}
+.header-kep{
+    background-image: url('../img/szocsheaderkep.jpeg');
+    background-size: cover;
+}
+.navbar{
+    position: absolute;
+    background: transparent;
+}
+  
+  /*# sourceMappingURL=sytle.css.map */
+  
