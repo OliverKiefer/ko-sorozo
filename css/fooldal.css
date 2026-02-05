@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: white;
   }
   
   nav {
@@ -93,13 +93,60 @@ body {
 a:hover{
     background-color: #efefef;
 }
-.header-kep{
-    background-image: url('../img/szocsheaderkep.jpeg');
-    background-size: cover;
+.kep{
+  margin-top: 50px;
+  margin: 0;
+  padding: 200px;
+  background-image: url(../img/szocsheaderkep.jpeg);
+  background-size: cover;
+  height: 200px;
+  width: 1500px;
+  position:relative;
+  background-repeat: no-repeat;
 }
-.navbar{
-    position: absolute;
-    background: transparent;
+.haegy{
+  padding-top: 25px;
+  color: black;
+  font-size: 15;
+  
+}
+.parag{
+  color: black;
+  font-size: 10;
+}
+
+.kepbox{
+  text-align: center;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.9);
+  
+  height: 300px;
+  width: 300px;
+}
+.btn{
+  display: inline-block;
+  background-color:rgb(114, 114, 114);
+  color: #6d4343;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+}
+
+.btn  {
+  color: white;
+}
+
+.btn:hover {
+  background-color: #ad9d9d;
+  
+}
+.kartya{
+  border-radius: 24px;
+  display: grid;
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 600px;
+  height: auto;
 }
   
   /*# sourceMappingURL=sytle.css.map */
