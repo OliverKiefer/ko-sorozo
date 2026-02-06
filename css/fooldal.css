@@ -140,14 +140,49 @@ a:hover{
   background-color: #ad9d9d;
   
 }
-.kartya{
-  border-radius: 24px;
-  display: grid;
-  margin-top: 100px;
-  margin-left: 100px;
-  width: 600px;
-  height: auto;
+
+
+.btn {
+  background-color: #00897b;
+  color: white;
+  text-decoration: none;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: bold;
 }
+.row-layout {
+  display: flex;          
+  gap: 30px;             
+  padding: 20px;
+  align-items: stretch;   
+}
+
+.box {
+  flex: 1;                
+  border-radius: 20px;    
+  overflow: hidden;       
+  background-color: #fff; 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+}
+
+
+.image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      
+  display: block;
+}
+
+.text-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  text-align: center;
+  background-color: #fcfcfc; 
+}
+
   
   /*# sourceMappingURL=sytle.css.map */
   
