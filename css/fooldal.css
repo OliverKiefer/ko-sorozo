@@ -182,7 +182,50 @@ a:hover{
   text-align: center;
   background-color: #fcfcfc; 
 }
+.container{
+  margin: 0 auto;
+  max-width: var(--width);
+  padding: 0 var(--p-container);
+}
+.label{
+  background-color: #dbfae2;
+  display: inline-flex;
+  font-size: var(--text);
+  letter-spacing: 1px;
+  padding: 4px 9px;
+  text-transform: uppercase;
+  transform: skew(-8deg);
+  transform-origin: center center;
+  margin-left: 100px;
+}
+.proof-inner{
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin-top: 2rem;
+  color: #235949;
+  font-family: Big Shoulders Text, serif;
+  font-size: 63px;
+}
 
+.proof-item{
+  justify-self: center;
+  padding-right: 2rem;
+  position: relative;
+}
+.proof-nr{
+  color: #235949;
+  font-family: Big Shoulders Text, serif;
+  font-size: 63px;
+  letter-spacing: 3px;
+}
+p.body-text{
+  font-size: 16px !important;
+  font-weight: 300;
+  line-height: 1.6;
+  opacity: .9;
+  padding-top: 1rem;
+}
   
   /*# sourceMappingURL=sytle.css.map */
   
