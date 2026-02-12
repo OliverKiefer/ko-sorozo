@@ -86,7 +86,7 @@ body {
       display: none;
     }
   }
-.icon{
+.pur-icon{
     width: 140px;
     height: 75px;
 }
@@ -225,6 +225,45 @@ p.body-text{
   line-height: 1.6;
   opacity: .9;
   padding-top: 1rem;
+}
+.pur-legal-copyright{
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  border: black 2px solid;
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 39%;
+  margin-right: 39%;
+}
+.pur-social-list{
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.pur-social-list{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.pur-social-link{
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 4s ease-in-out;
+}
+.icon{
+  width: 40px;
+  height: 40px;
+}
+.big-icon{
+  width: 50px;
+  height: 50px;
 }
   
   /*# sourceMappingURL=sytle.css.map */
