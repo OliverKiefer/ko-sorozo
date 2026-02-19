@@ -387,7 +387,6 @@ h2 {
   gap: 40px;
 }
 
-/* Bal oldal */
 .hero-content {
   flex: 2;
 }
@@ -406,13 +405,24 @@ h2 {
 
 .small-img-container {
   width: 200px;
-  height: 260px; 
+  height: 260px;
 }
 .small-img-container img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 15px;
+}
+
+.small-img-container img,
+.hero-image-large img {
+  transition: transform 1s cubic-bezier(0.2, 0.7, 0.2, 1);
+  will-change: transform;
+  transform-origin: top center; 
+}
+
+.small-img-container img:hover {
+  transform: scale(1.06);
 }
 
 .text-block {
@@ -453,7 +463,7 @@ h2 {
 .hero-image-large {
   flex: 1;
   max-width: 420px;
-  height: 460px; 
+  height: 460px;
 }
 
 .hero-image-large img {
@@ -462,6 +472,17 @@ h2 {
   object-fit: cover;
   border-radius: 20px;
   display: block;
+}
+.hero-image-large img:hover {
+  transform: scale(1.12);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .small-img-container img,
+  .hero-image-large img {
+    transition: none;
+    transform: none;
+  }
 }
 
 @media (max-width: 1024px) {
@@ -478,7 +499,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: auto; 
+    height: auto;
   }
 
   .hero-image-large img {
@@ -502,7 +523,7 @@ h2 {
   .small-img-container img {
     width: 100%;
     max-width: 300px;
-    height: auto; 
+    height: auto;
   }
 
   .logos {
@@ -515,4 +536,121 @@ a {
 }
 a:hover {
   color: black;
+}
+
+.team-section {
+    padding: 80px 0;
+    background-color: #fdfcf5; 
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.section-header {
+    margin-bottom: 50px;
+}
+
+.section-subtitle {
+    color: #00816a;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.section-title {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.5rem;
+    color: #00281f;
+    font-weight: 700;
+}
+
+
+.team-grid {
+    display: grid;
+    
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+
+.team-card {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+
+.member-image {
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.member-image img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    filter: grayscale(20%); 
+    transition: 0.3s;
+}
+
+.team-card:hover .member-image img {
+    filter: grayscale(0%);
+}
+
+
+.member-info h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3rem;
+    color: #00281f;
+    margin-bottom: 5px;
+}
+
+.member-info p {
+    color: #666;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+
+
+
+@media (max-width: 1024px) {
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .team-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .section-title {
+        font-size: 2rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .team-grid {
+        grid-template-columns: 1fr;
+        padding: 0 20px;
+    }
 }
