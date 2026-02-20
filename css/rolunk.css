@@ -654,3 +654,75 @@ a:hover {
         padding: 0 20px;
     }
 }
+.pur-legal-copyright {
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 1.2;
+  letter-spacing: 0;
+  border: black 2px solid;
+  border-radius: 40px;
+  padding: 10px;
+  text-align: center;
+  margin-left: 39%;
+  margin-right: 39%;
+}
+
+@media screen and (max-width: 768px) {
+  .pur-legal-copyright {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .pur-legal-copyright {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 12px;
+    padding: 8px;
+  }
+}
+.pur-social-list {
+  display: flex;
+  align-items: center;
+  padding: 20px 40px;
+  margin: 0;
+  list-style: none;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .pur-social-list {
+    justify-content: center;
+    padding: 20px 20px;
+  }
+}
+.pur-social-item {
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .pur-social-item {
+    margin: 15px;
+  }
+}
+.pur-social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: color 4s ease-in-out;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+@media screen and (max-width: 480px) {
+  .icon {
+    width: 40px;
+    height: 40px;
+  }
+}
