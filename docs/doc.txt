@@ -1,0 +1,8 @@
+HTML:
+Fooldal.html: a ötletet a pécsi sör oldaláról vettem, a képek teljesen stock, valamint ai által generált képek. a footerben levo linkeket ai-al.
+rolunk.html: a rolunk oldalon a kártyák ai-al voltak készítve, valamint a pécsi sör html strukturájával ötvözve, mint az oldal többi része. a csapatunk részleg saját ötlet, ezek ai-al készűltek
+termékek.html: a kártyák szintén ai, az ötlet itt is a pécsi sör, valamint a sörök maguk generált képek
+CSS:
+fooldal.css: a css legtöbb része ai, de a kisebb része a pécsi sör
+rolunk.html: a legtöbb része itt is a pécsi sör csséből lett véve, és ai segitsegevel atformazva a sajatomra
+termekek.css:
