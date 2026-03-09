@@ -274,7 +274,7 @@ a:hover {
   color: #1a4d3e;
   font-size: 1.1rem;
   margin-bottom: 15px;
-  min-height: 50px; 
+  min-height: 50px;
 }
 
 
@@ -283,6 +283,13 @@ a:hover {
   font-size: 1.1rem;
   color: #333;
   margin-top: auto; 
+}
+.product-price-akcios{
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-top: auto;
+  text-decoration: line-through; 
+  opacity: 50%;
 }
 
 
