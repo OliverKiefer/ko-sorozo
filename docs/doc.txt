@@ -5,4 +5,4 @@ termékek.html: a kártyák szintén ai, az ötlet itt is a pécsi sör, valamin
 CSS:
 fooldal.css: a css legtöbb része ai, de a kisebb része a pécsi sör
 rolunk.html: a legtöbb része itt is a pécsi sör csséből lett véve, és ai segitsegevel atformazva a sajatomra
-termekek.css:
+termekek.css: az ötlet a pécsi sör oldaláról jött, a sörképek ai-al generált, a rövid italok pedig internetről lettek leszedve. egy kártyát hoztam létre ai-al, aztan duplikaval lettek
